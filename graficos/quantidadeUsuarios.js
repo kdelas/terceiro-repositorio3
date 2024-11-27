@@ -1,4 +1,4 @@
-import { getCSS, tickConfig } from "./common.js"
+import { getCSS, tickConfig } from "common.js"
 
 async function quantidadeUsuarios() {
     const url = 'https://raw.githubusercontent.com/guilhermeomrails/api/main/numero-usuarios.json'
@@ -11,9 +11,9 @@ async function quantidadeUsuarios() {
         {
             x: nomeDasRedes,
             y: quantidadeDeUsuarios,
-            type: 'bar',
+            type: 'bar'
             marker: {
-                color: getCSS('--primary-color')
+            color: getCSS('--primary-color')
             }
         }
     ]
