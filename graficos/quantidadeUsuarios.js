@@ -1,4 +1,4 @@
-import { getCSS, tickConfig } from "graficos/common.js"
+import { getCSS, tickConfig } from "./common.js"
 
 async function quantidadeUsuarios() {
     const url = 'https://raw.githubusercontent.com/guilhermeomrails/api/main/numero-usuarios.json'
